@@ -28,7 +28,8 @@
 </form>
 
 <!-- Remind Passowrd -->
-<div class="copy-text">  <a class="underlineHover" href="{{route('register')}}">Register</a>
+<div class="copy-text"> 
+     <a class="underlineHover" href="{{route('register')}}">Register</a>
     </div>
 
 		</div>
