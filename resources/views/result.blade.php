@@ -36,10 +36,15 @@
 	@guest
     @else
     <a style="margin-top: 15px;" class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();"><i class="fa fa-sign-out"></i> {{ __('Logout') }} </a>
-    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+	<form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+		
     @csrf
     </form>
 	@endguest
+	<div>
+		
+	<a href="https://www.instagram.com/ardiiysh_/">informasi lebih lanjut </a>
+</div>
 </center>
 
 @endsection
