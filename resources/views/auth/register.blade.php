@@ -36,7 +36,7 @@
         <div class="form-group">
             <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password" placeholder="Password Confirm">            
         </div>
-        <input type="submit" class="form-control" value="Register">
+        <input type="submit" class="btn btn-login float-right" value="Register">
 
 </form>
 </div>
